@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "129880989830",
+    "firebase_url": "https://movie-tracker-3816e.firebaseio.com",
+    "project_id": "movie-tracker-3816e",
+    "storage_bucket": "movie-tracker-3816e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129880989830:android:31044dbfb7e52b62",
+        "android_client_info": {
+          "package_name": "com.example.ahmedsayed.movietracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129880989830-e5u6nmhf1cbm9esmllnmbi56g1tscc82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmedsayed.movietracker",
+            "certificate_hash": "1885534a8f46de6ad723caccf6756aeaf9bb0ac2"
+          }
+        },
+        {
+          "client_id": "129880989830-4crnq83cu8p0qdl2ce1rjo8lpiubj1kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv65U_ZHsqzUcMQRVlyVF97vPv-JFQ7DQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129880989830-4crnq83cu8p0qdl2ce1rjo8lpiubj1kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Movie Tracker</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="sign_out">Sign Out</string>
+    <string name="action_log_in">Login </string>
+    <string name="action_register">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="confirm_password">Confirm Password </string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short, it must be more than 6 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_confirm_password">This Confirm Password is incorrect</string>
+    <string name="loading">Loading</string>
+
+    <string name="network_access_faild">No Network Access , Please Check Your Network</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_Latest">Latest</string>
+    <string name="category_TopRated">Top Rated</string>
+    <string name="category_NowPlaying">Now Playing</string>
+    <string name="category_Popular">Popular</string>
+    <string name="category_Upcoming">Upcoming</string>
+    <string name="watch_list">Watch List</string>
+
+
+
+
+
+
+</resources>

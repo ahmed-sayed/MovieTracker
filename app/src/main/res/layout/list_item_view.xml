@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:id="@+id/section_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/section_1_2_Movie_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="Game Of Thrones"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/section_1_3_Movie_Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/section_1_3_Production_Year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:text="2018"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <LinearLayout
+                android:id="@+id/section_1_3_Rate_Details"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/section_1_3_Rate_Number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="5.4"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/section_1_3_Star_Rate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_star_half_black_24dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/section_1_3_Movie_Category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Action, Drama"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/grey" />
+
+    <RelativeLayout
+        android:id="@+id/section_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/section_2_1_Movie_Poster"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/grey"
+            android:scaleType="fitXY"
+            android:src="@drawable/family_father" />
+
+        <RelativeLayout
+            android:id="@+id/section_2.2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/section_2_1_Movie_Poster">
+
+            <TextView
+                android:id="@+id/section_2_2_Movie_OverView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="4dp"
+                android:text="Story Sure. You can add a border to any layout you want. Basically, you need to create a custom drawable and add it as a background to your layout. example:
+Create a file called customborder.xml in your drawable folder: "
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <Button
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:id="@+id/section_2_3_addToWatchList_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_2_2_Movie_OverView"
+                android:layout_centerInParent="true"
+                android:background="@drawable/border"
+                android:text="Add To Watch List " />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
